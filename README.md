@@ -8,6 +8,7 @@ To start using the Plug Yourself, you must first include the javascript script t
 
 <script type="text/javascript" src='plug_yourself.js'></script>
 
+
 The library API can be accessed through javascript calls. As a result you will also need to create another javascript file to call the library API functions. You can do this by copying the following line into the body section in your html file. In our example we call this file “examples.js” but you can call it anything.
 
 <script defer type="text/javascript" src='examples.js'></script>
