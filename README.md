@@ -15,7 +15,9 @@ The library API can be accessed through javascript calls. As a result you will a
 Now lets try using the library to create a toolbar of social media buttons. We can do this by writing the following code in our “examples.js” file. 
 
 var t1 = new PlugYourself()
+
 var a = t1.getBar()
+
 document.querySelector("body").append(a)
 
 The first line of code creates an instance of the toolbar. The second line of code assigns the toolbar object to a variable. Then in the third line we use this variable to add the toolbar to our document. In our example we appended the toolbar to the body tag but it can be appended to any div as well. Now we have created a toolbar on our page. It is completely empty at the moment so we will use the functions in our library API to populate the toolbar.
