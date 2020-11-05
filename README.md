@@ -1,9 +1,9 @@
 # Plug Yourself Library Documentation
 
-##Intro:
+**Intro:**
 The purpose of the ‘Plug Yourself’ library is to help developers create beautiful looking social media profile links on their websites. The library will return a toolbar of buttons, with each button corresponding to a social media profile. The library allows the user to choose which profiles to add to the toolbar. Given the profile type and link, the library will create a button with an icon associated with the profile type. For example, if the user created an Instagram button, the toolbar will contain an Instagram icon that links to the specified Instagram profile. The icon images used for the buttons are taken from existing icon packs. As a result, the library allows the user to switch between icon packs for every button at once. 
 
-##Setup:
+**Setup:**
 
 Place the plug_yourself.js file in the same directory as the program you will be working on.
 
