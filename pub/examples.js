@@ -290,6 +290,10 @@ t1.addRoundedCorners()
 var a = t1.getBar()
 document.getElementById("eighth_example").append(a)
 
+var t5 = new PlugYourself()
+var a = t5.getBar()
+document.querySelector("body").append(a)
+
 
 // const t3 = new PlugYourself()
 // t3.setIconTheme("pastel")
